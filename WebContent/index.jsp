@@ -21,7 +21,7 @@
 
 <div id="wrap">	
 			
-	<%@include file="/WEB-INF/template/header.jsp" %>
+	<jsp:include page="/WEB-INF/template/header.jsp"/>
 	
 	<section id="main-container" class="container">
 	
@@ -43,7 +43,7 @@
 	
 </div>		
 			
-<%@include file="/WEB-INF/template/footer.jsp" %>
+<jsp:include page="/WEB-INF/template/footer.jsp"/>
 
 </body>			
 </html>
